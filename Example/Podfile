@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '11.0'
 
 target 'QMLineDemo_Example' do
-  pod 'QMLineUI', :path => '../QMLineUI/'
+  pod 'QMLineUI', :path => '../'
   pod 'QMLineSDK', :path => '../QMLineSDK/'
   pod 'JSONModel'
   pod 'libmp3lame', '~> 3.99.5'

@@ -29,7 +29,7 @@ DEPENDENCIES:
   - JSONModel
   - libmp3lame (~> 3.99.5)
   - QMLineSDK (from `../QMLineSDK/`)
-  - QMLineUI (from `../QMLineUI/`)
+  - QMLineUI (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -47,7 +47,7 @@ EXTERNAL SOURCES:
   QMLineSDK:
     :path: "../QMLineSDK/"
   QMLineUI:
-    :path: "../QMLineUI/"
+    :path: "../"
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -58,10 +58,10 @@ SPEC CHECKSUMS:
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   Qiniu: df5794ac9549e69be616eaf6a390d858a502430b
   QMLineSDK: b4c99af2ee1422ddd6eecdcc72628e721862d42b
-  QMLineUI: 1d58eac6da87c63a4ff002f3c89ddff383c3b884
+  QMLineUI: 771e96312be27922185520ea3eb759ca4ac0cbd8
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
-PODFILE CHECKSUM: 1f95e86883715d3e9917842df01bce807d572e1d
+PODFILE CHECKSUM: 506a839ef511fab723e257b5eab9083924d9913f
 
 COCOAPODS: 1.11.2
