@@ -1,0 +1,50 @@
+{
+  "name": "QMLineUI",
+  "version": "0.1.0",
+  "summary": "A short description of QMLineDemo.",
+  "description": "QMLineSDK UI",
+  "homepage": "https://github.com/VE66/QMLineDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VE66": "942914231@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/VE66/QMLineDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "QMLineUI/Classes/**/*",
+  "resource_bundles": {
+    "QMLineUIBundle": [
+      "QMLineUI/Assets/*.png"
+    ]
+  },
+  "public_header_files": "QMLineUI/Classes/QMChatUI/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 5.11.1"
+    ],
+    "JSONModel": [
+      "~> 1.8.0"
+    ],
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "MJRefresh": [
+      "~> 3.7.5"
+    ],
+    "QMLineSDK": [
+
+    ],
+    "libmp3lame": [
+      "~> 3.99.5"
+    ]
+  },
+  "static_framework": true
+}
