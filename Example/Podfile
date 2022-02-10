@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QMLineDemo_Example' do
+  pod 'QMLineDemo', :path => '../'
+
+  target 'QMLineDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
