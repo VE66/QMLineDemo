@@ -39,6 +39,9 @@
 		3D79A57027B4E1B600C77BD6 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		3D79A57127B4E1BF00C77BD6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3D79A57227B4E1C700C77BD6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3D853A1227B5F627007E39CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		3D853A1327B5F627007E39CE /* QMLineUI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = QMLineUI.podspec; path = ../../QMLineUI.podspec; sourceTree = "<group>"; };
+		3D853A1427B5F627007E39CE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
 		57C5722CFD7E190FB74C904A /* Pods_QMLineDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMLineDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* QMLineDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMLineDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,9 +93,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D853A1127B5F5D6007E39CE /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3D853A1427B5F627007E39CE /* LICENSE */,
+				3D853A1327B5F627007E39CE /* QMLineUI.podspec */,
+				3D853A1227B5F627007E39CE /* README.md */,
+			);
+			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				3D853A1127B5F5D6007E39CE /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for QMLineDemo */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,

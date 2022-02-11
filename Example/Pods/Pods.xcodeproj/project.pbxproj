@@ -1538,7 +1538,7 @@
 		8800C2BA5454E87BED4513131F451CBD /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
 		88689F75C1980B0D8AA1BDEE754E66FE /* QNBaseUpload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNBaseUpload.m; path = QiniuSDK/Storage/QNBaseUpload.m; sourceTree = "<group>"; };
 		887A028AFBF6860B9AFE7794209D3EF7 /* QMChatRoomXbotCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMChatRoomXbotCardView.h; sourceTree = "<group>"; };
-		8895E88F42A8217484DE5A0ED268A719 /* QMLineUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMLineUI; path = QMLineUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8895E88F42A8217484DE5A0ED268A719 /* QMLineUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QMLineUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E7E773633238AF14FCEEF5F12D7BF2 /* SocketRocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.debug.xcconfig; sourceTree = "<group>"; };
 		891414C007345CA2CB11B3E8F8D36395 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
 		892DDDCE61E0C22C382CDF46B3F4A9A9 /* QNBaseUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNBaseUpload.h; path = QiniuSDK/Storage/QNBaseUpload.h; sourceTree = "<group>"; };
@@ -1672,7 +1672,7 @@
 		AC90362BB89389105CA16C14957E401B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		ADB122AACC8EBB0F780616D626ED6AAC /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
 		AF22267046F179B9951EFD71B1511AD9 /* QMChatRoomXbotCardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMChatRoomXbotCardCell.m; sourceTree = "<group>"; };
-		AF2B342CE5C6240A06119857D8A54E1E /* QMLineSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMLineSDK; path = QMLineSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2B342CE5C6240A06119857D8A54E1E /* QMLineSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QMLineSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF38E933F8DE718770785E4D416CE3A6 /* emoji_20.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = emoji_20.png; sourceTree = "<group>"; };
 		AF92BC4E80A40F70BDBDC8729267FD11 /* QNCrc32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNCrc32.h; path = QiniuSDK/Utils/QNCrc32.h; sourceTree = "<group>"; };
 		AF9A0D5B234521D510BAC5544A3672B4 /* QMFileTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMFileTableCell.h; sourceTree = "<group>"; };
@@ -2592,9 +2592,9 @@
 				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
 				1BBE6DD7D26FD1A3D0C1544D0660D7F1 /* Pods-QMLineDemo_Example */,
 				A7B82792B39240C408DA7D6FEB677DA6 /* Qiniu */,
-				AF2B342CE5C6240A06119857D8A54E1E /* QMLineSDK */,
+				AF2B342CE5C6240A06119857D8A54E1E /* QMLineSDK.framework */,
 				35003B9545F801421B75E7A9A6F90A0E /* QMLineSDK-QMLineSDK */,
-				8895E88F42A8217484DE5A0ED268A719 /* QMLineUI */,
+				8895E88F42A8217484DE5A0ED268A719 /* QMLineUI.framework */,
 				A7C4812214E8A487367E0631AE1C9F4F /* QMLineUI-QMLineUIBundle */,
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
 				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket */,
@@ -4060,7 +4060,7 @@
 			);
 			name = QMLineUI;
 			productName = QMLineUI;
-			productReference = 8895E88F42A8217484DE5A0ED268A719 /* QMLineUI */;
+			productReference = 8895E88F42A8217484DE5A0ED268A719 /* QMLineUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
@@ -4118,7 +4118,7 @@
 			);
 			name = QMLineSDK;
 			productName = QMLineSDK;
-			productReference = AF2B342CE5C6240A06119857D8A54E1E /* QMLineSDK */;
+			productReference = AF2B342CE5C6240A06119857D8A54E1E /* QMLineSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
@@ -5376,6 +5376,7 @@
 				PRODUCT_NAME = QMLineUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5409,6 +5410,7 @@
 				PRODUCT_NAME = QMLineUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5790,6 +5792,7 @@
 				PRODUCT_NAME = QMLineSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5920,6 +5923,7 @@
 				PRODUCT_NAME = QMLineSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
